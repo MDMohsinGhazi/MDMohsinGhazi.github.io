@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { BsArrowDownShort } from "react-icons/bs";
 import Icon from "../assets/images/icon.png";
+import resume from "../assets/resume/MOHD_MOHSIN_RESUME.pdf";
 
 const NavBar = () => {
   return (
@@ -67,9 +68,9 @@ const NavBar = () => {
 
         <a
           className="nm-flat-primary px-3 py-1.5 rounded-md lg:hidden uppercase text-BlueJeans hover:text-white hover:bg-BlueJeans flex items-center text-sm font-semibold"
-          href={process.env.PUBLIC_URL + "/resume/Mohd_Mohsin_cv.pdf"}
+          href={resume}
           target="_blank"
-          download={"mohd_mohsin_resume.pdf"}
+          download={"MOHD_MOHSIN_RESUME.pdf"}
         >
           Resume <BsArrowDownShort size={18} className="font-bold" />
         </a>

@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 import FindMe from "./FindMe";
 import banner from "../assets/images/banner2.png";
+import resume from "../assets/resume/MOHD_MOHSIN_RESUME.pdf";
 
 const Hero = () => {
   return (
@@ -33,9 +34,9 @@ const Hero = () => {
           </p>
           <button className="xl:px-6 xl:py-3 px-5 py-2 hidden lg:block nm-flat-primary uppercase text-BlueJeans font-semibold rounded-lg hover:text-white hover:bg-BlueJeans transition-all duration-150 delay-150 ">
             <a
-              href={process.env.PUBLIC_URL + "/resume/Mohd_Mohsin_cv.pdf"}
+              href={resume}
               target="_blank"
-              download={"mohd_mohsin_resume.pdf"}
+              download={"MOHD_MOHSIN_RESUME.pdf"}
             >
               Download Resume
             </a>
