@@ -68,6 +68,7 @@ const NavBar = () => {
         <a
           className="nm-flat-primary px-3 py-1.5 rounded-md lg:hidden uppercase text-BlueJeans hover:text-white hover:bg-BlueJeans flex items-center text-sm font-semibold"
           href={process.env.PUBLIC_URL + "/resume/Mohd_Mohsin_cv.pdf"}
+          target="_blank"
           download={"mohd_mohsin_resume.pdf"}
         >
           Resume <BsArrowDownShort size={18} className="font-bold" />

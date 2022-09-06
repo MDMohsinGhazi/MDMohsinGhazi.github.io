@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="mx-auto lg:max-w-6xl xl:max-w-7xl  text-base lg:text-lg lg:h-screen flex flex-col justify-center"
+      className="mx-auto lg:max-w-6xl xl:max-w-7xl  text-base lg:text-lg  flex flex-col justify-center"
     >
       <div className="flex flex-col lg:flex-row  lg:justify-between items-start gap-10">
         <div className="text-Gray lg:space-y-1  max-w-md px-5 lg:px-0  lg:max-w-3xl pt-24">
@@ -34,6 +34,7 @@ const Hero = () => {
           <button className="xl:px-6 xl:py-3 px-5 py-2 hidden lg:block nm-flat-primary uppercase text-BlueJeans font-semibold rounded-lg hover:text-white hover:bg-BlueJeans transition-all duration-150 delay-150 ">
             <a
               href={process.env.PUBLIC_URL + "/resume/Mohd_Mohsin_cv.pdf"}
+              target="_blank"
               download={"mohd_mohsin_resume.pdf"}
             >
               Download Resume
