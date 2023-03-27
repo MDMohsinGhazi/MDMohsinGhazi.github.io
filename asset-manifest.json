@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.ef7e3f50.css",
-    "main.js": "/static/js/main.258c4ea1.js",
+    "main.js": "/static/js/main.fbe1af95.js",
     "static/media/banner2.png": "/static/media/banner2.135006b044ccf77b8097.png",
     "static/media/MOHD_MOHSIN_RESUME.pdf": "/static/media/MOHD_MOHSIN_RESUME.966c6fc24fb3c4328d99.pdf",
     "static/media/icon.png": "/static/media/icon.bf95e7d73d01dec904db.png",
     "index.html": "/index.html",
     "main.ef7e3f50.css.map": "/static/css/main.ef7e3f50.css.map",
-    "main.258c4ea1.js.map": "/static/js/main.258c4ea1.js.map"
+    "main.fbe1af95.js.map": "/static/js/main.fbe1af95.js.map"
   },
   "entrypoints": [
     "static/css/main.ef7e3f50.css",
-    "static/js/main.258c4ea1.js"
+    "static/js/main.fbe1af95.js"
   ]
 }
