@@ -10,7 +10,7 @@ const ContactInfo = () => {
       <div className="py-5 text-lg">
         <h1 className="text-xl font-bold ">MOHD Mohsin Ghazi</h1>
         <h2 className="pt-5 text-lg font-semibold ">Software Engineer</h2>
-        <p>I am looking for job change. Contect with me via call or email</p>
+        <p>I am looking for job change.Contact with me via call or email</p>
         <div className="pt-5">Phone: +91 7830811252</div>
         <div>Email: md.mohsin.ghazi@outlook.com</div>
       </div>
